@@ -9,4 +9,8 @@
 #
 # GMAIL_USERNAME: changeme
 # GMAIL_PASSWORD: changeme
-secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
+
+# Do not keep production secrets in the repository,
+# instead read values from the environment.
+production:
+  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
