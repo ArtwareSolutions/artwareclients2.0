@@ -10,7 +10,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass', '>= 3.0.0.0'
-gem 'figaro', :github => 'laserlemon/figaro'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
