@@ -3,7 +3,7 @@ Rails.application.configure do
 
   # Do not keep production secrets in the repository,
   # instead read values from the environment variable.
-  secret_key_base = ENV["SECRET_KEY_BASE"]
+  secret_key_base = ENV['SECRET_KEY_BASE']
 
   # Code is not reloaded between requests.
   config.cache_classes = true
