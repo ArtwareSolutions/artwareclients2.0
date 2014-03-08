@@ -20,11 +20,7 @@
         <td><%= artwork.description %></td>
         <td><%= artwork.medium %></td>
         <td><%= artwork.dimensions %></td>
-<<<<<<< HEAD
         <td><%= link_to '', artwork, :class => 'glyphicon glyphicon-picture' %></td>
-=======
-        <td><%= link_to '', artwork, :class => 'glyphicon glyphicon-info-sign' %></td>
->>>>>>> cbfcfb5e1357bc40020d72d8f40de57d3208f8de
         <td><%= link_to '', edit_artwork_path(artwork), :class => 'glyphicon glyphicon-pencil' %></td>
         <td><%= link_to '', artwork, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'glyphicon glyphicon-trash'  %></td>
       </tr>
