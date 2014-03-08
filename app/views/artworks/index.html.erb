@@ -20,9 +20,9 @@
         <td><%= artwork.description %></td>
         <td><%= artwork.medium %></td>
         <td><%= artwork.dimensions %></td>
-        <td><%= link_to 'Show', artwork, :class => 'btn btn-primary' %></td>
-        <td><%= link_to 'Edit', edit_artwork_path(artwork), :class => 'btn btn-mini' %></td>
-        <td><%= link_to 'Destroy', artwork, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-mini btn-danger'  %></td>
+        <td><%= link_to '', artwork, :class => 'glyphicon glyphicon-picture' %></td>
+        <td><%= link_to '', edit_artwork_path(artwork), :class => 'glyphicon glyphicon-pencil' %></td>
+        <td><%= link_to '', artwork, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'glyphicon glyphicon-trash'  %></td>
       </tr>
     <% end %>
   </tbody>
